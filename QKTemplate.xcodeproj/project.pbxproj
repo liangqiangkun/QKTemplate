@@ -14,9 +14,14 @@
 		F134BFAC222777540041BA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F134BFAB222777540041BA51 /* Assets.xcassets */; };
 		F134BFB2222777540041BA51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFB1222777540041BA51 /* main.m */; };
 		F134BFBC222777550041BA51 /* QKTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFBB222777550041BA51 /* QKTemplateTests.m */; };
-		F134BFD622277BCD0041BA51 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFD522277BCD0041BA51 /* MainViewController.m */; };
 		F134BFE2222788000041BA51 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFE0222788000041BA51 /* UIButton+Common.m */; };
 		F1E3D7E622292C4E004BE83B /* UIView+CustomAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3D7E522292C4E004BE83B /* UIView+CustomAutoLayout.m */; };
+		F1F0EBEB222CBD8E00096B0E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBEA222CBD8E00096B0E /* FirstViewController.m */; };
+		F1F0EBEE222CBD9B00096B0E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBED222CBD9B00096B0E /* SecondViewController.m */; };
+		F1F0EBF1222CBDAC00096B0E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF0222CBDAC00096B0E /* ThirdViewController.m */; };
+		F1F0EBF4222CBDBD00096B0E /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF3222CBDBD00096B0E /* FourthViewController.m */; };
+		F1F0EBF7222CBE6600096B0E /* QKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */; };
+		F1F0EBF9222CC23400096B0E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1F0EBF8222CC23400096B0E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +61,22 @@
 		F134BFBB222777550041BA51 /* QKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTemplateTests.m; sourceTree = "<group>"; };
 		F134BFBD222777550041BA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F134BFC2222777550041BA51 /* QKTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F134BFD422277BCD0041BA51 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		F134BFD522277BCD0041BA51 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F134BFE0222788000041BA51 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
 		F134BFE1222788000041BA51 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
 		F134BFE42227B52F0041BA51 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F1E3D7E422292C4E004BE83B /* UIView+CustomAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomAutoLayout.h"; sourceTree = "<group>"; };
 		F1E3D7E522292C4E004BE83B /* UIView+CustomAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomAutoLayout.m"; sourceTree = "<group>"; };
+		F1F0EBE9222CBD8E00096B0E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F1F0EBEA222CBD8E00096B0E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F1F0EBEC222CBD9B00096B0E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F1F0EBED222CBD9B00096B0E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F1F0EBEF222CBDAC00096B0E /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F1F0EBF0222CBDAC00096B0E /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F1F0EBF2222CBDBD00096B0E /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		F1F0EBF3222CBDBD00096B0E /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		F1F0EBF5222CBE6600096B0E /* QKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKTabBarController.h; sourceTree = "<group>"; };
+		F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTabBarController.m; sourceTree = "<group>"; };
+		F1F0EBF8222CC23400096B0E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +179,7 @@
 				F134BFAB222777540041BA51 /* Assets.xcassets */,
 				F134BFB0222777540041BA51 /* Info.plist */,
 				F134BFB1222777540041BA51 /* main.m */,
+				F1F0EBF8222CC23400096B0E /* Settings.bundle */,
 			);
 			name = support;
 			sourceTree = "<group>";
@@ -172,8 +187,12 @@
 		F134BFD8222782D30041BA51 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F134BFD422277BCD0041BA51 /* MainViewController.h */,
-				F134BFD522277BCD0041BA51 /* MainViewController.m */,
+				F1F0EBF5222CBE6600096B0E /* QKTabBarController.h */,
+				F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */,
+				F1F0EBE8222CBCFF00096B0E /* First */,
+				F1F0EBE7222CBCFF00096B0E /* Second */,
+				F1F0EBE5222CBCFF00096B0E /* Third */,
+				F1F0EBE6222CBCFF00096B0E /* Fourth */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -211,6 +230,42 @@
 				F1E3D7E522292C4E004BE83B /* UIView+CustomAutoLayout.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		F1F0EBE5222CBCFF00096B0E /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				F1F0EBEF222CBDAC00096B0E /* ThirdViewController.h */,
+				F1F0EBF0222CBDAC00096B0E /* ThirdViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		F1F0EBE6222CBCFF00096B0E /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				F1F0EBF2222CBDBD00096B0E /* FourthViewController.h */,
+				F1F0EBF3222CBDBD00096B0E /* FourthViewController.m */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		F1F0EBE7222CBCFF00096B0E /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				F1F0EBEC222CBD9B00096B0E /* SecondViewController.h */,
+				F1F0EBED222CBD9B00096B0E /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		F1F0EBE8222CBCFF00096B0E /* First */ = {
+			isa = PBXGroup;
+			children = (
+				F1F0EBE9222CBD8E00096B0E /* FirstViewController.h */,
+				F1F0EBEA222CBD8E00096B0E /* FirstViewController.m */,
+			);
+			path = First;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F0EBF9222CC23400096B0E /* Settings.bundle in Resources */,
 				F134BFAC222777540041BA51 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +407,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QKTemplate/Pods-QKTemplate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RDVTabBarController/RDVTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
 				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -361,8 +421,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RDVTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
@@ -445,10 +509,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F134BFB2222777540041BA51 /* main.m in Sources */,
+				F1F0EBEB222CBD8E00096B0E /* FirstViewController.m in Sources */,
+				F1F0EBF1222CBDAC00096B0E /* ThirdViewController.m in Sources */,
+				F1F0EBF7222CBE6600096B0E /* QKTabBarController.m in Sources */,
 				F134BFA4222777520041BA51 /* AppDelegate.m in Sources */,
+				F1F0EBEE222CBD9B00096B0E /* SecondViewController.m in Sources */,
 				F134BFE2222788000041BA51 /* UIButton+Common.m in Sources */,
+				F1F0EBF4222CBDBD00096B0E /* FourthViewController.m in Sources */,
 				F1E3D7E622292C4E004BE83B /* UIView+CustomAutoLayout.m in Sources */,
-				F134BFD622277BCD0041BA51 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

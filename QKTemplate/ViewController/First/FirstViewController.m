@@ -1,30 +1,35 @@
 //
-//  MainViewController.m
+//  FirstViewController.m
 //  QKTemplate
 //
-//  Created by 梁强坤 on 2019/2/28.
+//  Created by 梁强坤 on 2019/3/4.
 //  Copyright © 2019 梁强坤. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "FirstViewController.h"
 #import "Masonry.h"
 #import "UIButton+Common.h"
-#import <CoreLocation/CoreLocation.h>
 #import "SDAutoLayout.h"
-@interface MainViewController ()
+
+@interface FirstViewController ()
 @property (nonatomic,strong)UIButton *commonBtn;
 @property (nonatomic,strong)UIButton *commonBtn2;
 @end
 
-@implementation MainViewController
+@implementation FirstViewController
 
+//- (id)init{
+//    if (self) {
+//        self.title = @"会话";
+//    }
+//    return self;
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initSubViews];
 }
 //初始化子视图
 - (void)initSubViews{
-    [self.view setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:self.commonBtn];
     [self.view addSubview:self.commonBtn2];
     [self addMasonry];
@@ -44,14 +49,14 @@
 #pragma mark ---getter---
 - (UIButton *)commonBtn{
     if (!_commonBtn) {
-        _commonBtn = [UIButton createBtnWithTitle:@"点击" titleFontSize:18 bgImg:NULL bgColor:[UIColor blueColor] action:^(UIButton *button) {
+        _commonBtn = [UIButton createBtnWithTitle:@"点击" titleFontSize:18 bgImg:NULL bgColor:QKColorDefaultBlue action:^(UIButton *button) {
         }];
     }
     return _commonBtn;
 }
 - (UIButton *)commonBtn2{
     if (!_commonBtn2) {
-        _commonBtn2 = [UIButton createBtnWithTitle:@"点击" titleFontSize:18 bgImg:nil bgColor:[UIColor grayColor] action:^(UIButton *button) { 
+        _commonBtn2 = [UIButton createBtnWithTitle:@"点击" titleFontSize:18 bgImg:nil bgColor:QKColorCoolGrayColor action:^(UIButton *button) {
         }];
     }
     return _commonBtn2;
@@ -75,4 +80,6 @@
         
     }
 }
+
+
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
+#import "QKTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,9 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    MainViewController *mainVC = [[MainViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
-    [self.window setRootViewController:nav];
+    QKTabBarController *tabbarController = [[QKTabBarController alloc] init];
+    [self.window setRootViewController:tabbarController];
     [self.window makeKeyAndVisible];
     return YES;
 }

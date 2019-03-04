@@ -9,6 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "Colours.h"
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 //自适应的宽高
@@ -30,6 +32,14 @@
 #define QKRGBColor(r, g, b) QKRGBColorA((r), (g), (b), 255)//RGB
 #define QKRandomColor QKRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))//随机色
 #define QKColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]// rgb颜色转换（16进制->10进制）
+
+//一些默认颜色
+#define QKColorDefaultBG [UIColor colorFromHexString:@"F5F5F5"]//白烟
+#define QKColorDefaultGray [UIColor colorFromHexString:@"C0C0C0"]//灰色
+#define QKColorDefaultBlack [UIColor colorFromHexString:@"292421"]//象牙黑
+#define QKColorDefaultBlue [UIColor colorFromHexString:@"082E54"]//靛蓝
+#define QKColorCoolGrayColor [UIColor colorFromHexString:@"808A87"]//冷灰
+
 //log打印
 #ifdef DEBUG
 #define QKLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])

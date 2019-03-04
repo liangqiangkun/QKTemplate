@@ -13,7 +13,8 @@ target 'QKTemplate' do
   pod 'SDAutoLayout', '~> 2.1.3'
   pod 'SCLAlertView-Objective-C'
   pod 'JSONModel'
-
+  pod 'RDVTabBarController'
+  pod 'Colours'
 
 
   target 'QKTemplateTests' do
