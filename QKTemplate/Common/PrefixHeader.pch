@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  QKTemplate
+//
+//  Created by 梁强坤 on 2019/2/28.
+//  Copyright © 2019 梁强坤. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//自适应的宽高
+#define QKFit_Size_X(x)       (CGFloat)((x)/375.0*QKScreen_Width)
+#define QKFit_Size_Y(y)       (CGFloat)((y)/667.0*QKScreen_Height)
+#define Fit_Width(W)        (W*QKScreen_Width)/375
+#define Fit_Height(H)       (QKScreen_Height == 480 ? H : H*QKScreen_Height/667)
+#define QKScreen_Width [UIScreen mainScreen].bounds.size.width
+#define QKScreen_Height [UIScreen mainScreen].bounds.size.height
+// 适配iPhonexSeries高度
+#define QKIS_iPhoneXSeries (((812 == QKScreen_Height) || 896 == QKScreen_Height) ? YES : NO)
+#define QKIPhoneXSeries_bottom_margin (QKIS_iPhoneXSeries ? 34:0)
+#define QKIPhoneXSeries_navigation_margin (QKIS_iPhoneXSeries ? 24:0)
+#define QKNaviAndSta_Height (QKIS_iPhoneXSeries ? 88:64)
+#define QKStaBar_Height (QKIS_iPhoneXSeries ? 44:20)
+#define QKTabbar_Height  (QKIS_iPhoneXSeries? 83:49) // 适配iPhone x 底栏高度
+//16进制颜色转换
+#define QKRGBColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]//RGBA
+#define QKRGBColor(r, g, b) QKRGBColorA((r), (g), (b), 255)//RGB
+#define QKRandomColor QKRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))//随机色
+#define QKColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]// rgb颜色转换（16进制->10进制）
+//log打印
+#ifdef DEBUG
+#define QKLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define QKLog(...)
+//self弱引用/强引用
+#define QKWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define QKStrongSelf(type)  __strong typeof(type) type = weak##type;
+#endif
+// 系统一些常用缩写
+#define QKNotificationCenter           [NSNotificationCenter defaultCenter]
+#define QKApplication                  [UIApplication sharedApplication]
+#define QKKeyWindow                    [UIApplication sharedApplication].keyWindow
+#define QKAppDelegate                  [UIApplication sharedApplication].delegate
+#define QKUserDefaults                 [NSUserDefaults standardUserDefaults]
+#define QKSetUserDefaults(value,key)   [QKUserDefaults setObject:value forKey:key];\
+[QKUserDefaults synchronize]
+#define QKGetUserDefaults(key)         [QKUserDefaults objectForKey:key]
+#define QKRemoveUserDefaults(key)      [QKUserDefaults removeObjectForKey:key]
+#define QKNotificationCenter           [NSNotificationCenter defaultCenter]
+
+#endif /* PrefixHeader_pch */

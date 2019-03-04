@@ -1,0 +1,6 @@
+framework module Pods_QKTemplate {
+  umbrella header "Pods-QKTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}
