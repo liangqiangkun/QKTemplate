@@ -60,5 +60,12 @@
 #define QKGetUserDefaults(key)         [QKUserDefaults objectForKey:key]
 #define QKRemoveUserDefaults(key)      [QKUserDefaults removeObjectForKey:key]
 #define QKNotificationCenter           [NSNotificationCenter defaultCenter]
+#define QKDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]//获取沙盒Document路径
+
+
+
+
+
+
 
 #endif /* PrefixHeader_pch */

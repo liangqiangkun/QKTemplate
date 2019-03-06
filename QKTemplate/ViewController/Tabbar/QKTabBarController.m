@@ -7,10 +7,10 @@
 //
 
 #import "QKTabBarController.h"
-#import "First/FirstViewController.h"
-#import "Second/SecondViewController.h"
-#import "Third/ThirdViewController.h"
-#import "Fourth/FourthViewController.h"
+#import "../First/FirstViewController.h"
+#import "../Second/SecondViewController.h"
+#import "../Third/ThirdViewController.h"
+#import "../Fourth/FourthViewController.h"
 #import "RDVTabBarItem.h"
 
 @interface QKTabBarController ()
@@ -49,6 +49,7 @@
         UIImage *selImg = [UIImage imageNamed:[NSString stringWithFormat:@"%@_sel.png",imgName]];
         [item setFinishedSelectedImage:selImg withFinishedUnselectedImage:unselImg];
     }
+    [[self tabBar] setTintColor:QKColorDefaultBlue];
 }
 
 /*

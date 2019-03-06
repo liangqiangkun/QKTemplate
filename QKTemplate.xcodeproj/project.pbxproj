@@ -13,14 +13,13 @@
 		F134BFA4222777520041BA51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFA3222777520041BA51 /* AppDelegate.m */; };
 		F134BFAC222777540041BA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F134BFAB222777540041BA51 /* Assets.xcassets */; };
 		F134BFB2222777540041BA51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFB1222777540041BA51 /* main.m */; };
-		F134BFBC222777550041BA51 /* QKTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFBB222777550041BA51 /* QKTemplateTests.m */; };
 		F134BFE2222788000041BA51 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F134BFE0222788000041BA51 /* UIButton+Common.m */; };
+		F15E5258222D094200BAEED0 /* QKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E5257222D094200BAEED0 /* QKTabBarController.m */; };
 		F1E3D7E622292C4E004BE83B /* UIView+CustomAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3D7E522292C4E004BE83B /* UIView+CustomAutoLayout.m */; };
 		F1F0EBEB222CBD8E00096B0E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBEA222CBD8E00096B0E /* FirstViewController.m */; };
 		F1F0EBEE222CBD9B00096B0E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBED222CBD9B00096B0E /* SecondViewController.m */; };
 		F1F0EBF1222CBDAC00096B0E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF0222CBDAC00096B0E /* ThirdViewController.m */; };
 		F1F0EBF4222CBDBD00096B0E /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF3222CBDBD00096B0E /* FourthViewController.m */; };
-		F1F0EBF7222CBE6600096B0E /* QKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */; };
 		F1F0EBF9222CC23400096B0E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1F0EBF8222CC23400096B0E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
@@ -51,19 +50,19 @@
 		8E9D6871B8D723568110183D /* Pods_QKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF65E8106B48EDF3E0FB27F /* Pods-QKTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKTemplate/Pods-QKTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B5CEC573214FBC4DEF354EB0 /* Pods-QKTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKTemplateUITests/Pods-QKTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F134BF9F222777520041BA51 /* QKTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F134BFA2222777520041BA51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F134BFA3222777520041BA51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F134BFAB222777540041BA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F134BFB0222777540041BA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F134BFB1222777540041BA51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F134BFB7222777550041BA51 /* QKTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F134BFBB222777550041BA51 /* QKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTemplateTests.m; sourceTree = "<group>"; };
-		F134BFBD222777550041BA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F134BFC2222777550041BA51 /* QKTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F134BFE0222788000041BA51 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
 		F134BFE1222788000041BA51 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
 		F134BFE42227B52F0041BA51 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F15E5256222D094200BAEED0 /* QKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKTabBarController.h; sourceTree = "<group>"; };
+		F15E5257222D094200BAEED0 /* QKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKTabBarController.m; sourceTree = "<group>"; };
+		F1C12E83222E471D00291B18 /* QKTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C12E84222E471D00291B18 /* QKTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C12E85222E471D00291B18 /* QKTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E3D7E422292C4E004BE83B /* UIView+CustomAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomAutoLayout.h"; sourceTree = "<group>"; };
 		F1E3D7E522292C4E004BE83B /* UIView+CustomAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomAutoLayout.m"; sourceTree = "<group>"; };
 		F1F0EBE9222CBD8E00096B0E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -74,8 +73,6 @@
 		F1F0EBF0222CBDAC00096B0E /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		F1F0EBF2222CBDBD00096B0E /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		F1F0EBF3222CBDBD00096B0E /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		F1F0EBF5222CBE6600096B0E /* QKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKTabBarController.h; sourceTree = "<group>"; };
-		F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTabBarController.m; sourceTree = "<group>"; };
 		F1F0EBF8222CC23400096B0E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,21 +131,12 @@
 			isa = PBXGroup;
 			children = (
 				F134BFA1222777520041BA51 /* QKTemplate */,
-				F134BFBA222777550041BA51 /* QKTemplateTests */,
-				F134BFA0222777520041BA51 /* Products */,
 				B2A5F491468FD9C9211C3111 /* Pods */,
 				A88EA15EB30052B32D8AEC77 /* Frameworks */,
+				F1C12E83222E471D00291B18 /* QKTemplate.app */,
+				F1C12E84222E471D00291B18 /* QKTemplateTests.xctest */,
+				F1C12E85222E471D00291B18 /* QKTemplateUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		F134BFA0222777520041BA51 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F134BF9F222777520041BA51 /* QKTemplate.app */,
-				F134BFB7222777550041BA51 /* QKTemplateTests.xctest */,
-				F134BFC2222777550041BA51 /* QKTemplateUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F134BFA1222777520041BA51 /* QKTemplate */ = {
@@ -160,15 +148,6 @@
 				F134BFD72227820C0041BA51 /* support */,
 			);
 			path = QKTemplate;
-			sourceTree = "<group>";
-		};
-		F134BFBA222777550041BA51 /* QKTemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				F134BFBB222777550041BA51 /* QKTemplateTests.m */,
-				F134BFBD222777550041BA51 /* Info.plist */,
-			);
-			path = QKTemplateTests;
 			sourceTree = "<group>";
 		};
 		F134BFD72227820C0041BA51 /* support */ = {
@@ -187,8 +166,7 @@
 		F134BFD8222782D30041BA51 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F1F0EBF5222CBE6600096B0E /* QKTabBarController.h */,
-				F1F0EBF6222CBE6600096B0E /* QKTabBarController.m */,
+				F15E5255222D094200BAEED0 /* Tabbar */,
 				F1F0EBE8222CBCFF00096B0E /* First */,
 				F1F0EBE7222CBCFF00096B0E /* Second */,
 				F1F0EBE5222CBCFF00096B0E /* Third */,
@@ -221,6 +199,15 @@
 				F134BFE42227B52F0041BA51 /* PrefixHeader.pch */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		F15E5255222D094200BAEED0 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F15E5256222D094200BAEED0 /* QKTabBarController.h */,
+				F15E5257222D094200BAEED0 /* QKTabBarController.m */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 		F1E3D7E322292C4E004BE83B /* UIView */ = {
@@ -287,7 +274,7 @@
 			);
 			name = QKTemplate;
 			productName = QKTemplate;
-			productReference = F134BF9F222777520041BA51 /* QKTemplate.app */;
+			productReference = F1C12E83222E471D00291B18 /* QKTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F134BFB6222777550041BA51 /* QKTemplateTests */ = {
@@ -306,7 +293,7 @@
 			);
 			name = QKTemplateTests;
 			productName = QKTemplateTests;
-			productReference = F134BFB7222777550041BA51 /* QKTemplateTests.xctest */;
+			productReference = F1C12E84222E471D00291B18 /* QKTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F134BFC1222777550041BA51 /* QKTemplateUITests */ = {
@@ -325,7 +312,7 @@
 			);
 			name = QKTemplateUITests;
 			productName = QKTemplateUITests;
-			productReference = F134BFC2222777550041BA51 /* QKTemplateUITests.xctest */;
+			productReference = F1C12E85222E471D00291B18 /* QKTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -359,7 +346,7 @@
 				Base,
 			);
 			mainGroup = F134BF96222777520041BA51;
-			productRefGroup = F134BFA0222777520041BA51 /* Products */;
+			productRefGroup = F134BF96222777520041BA51;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -508,10 +495,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15E5258222D094200BAEED0 /* QKTabBarController.m in Sources */,
 				F134BFB2222777540041BA51 /* main.m in Sources */,
 				F1F0EBEB222CBD8E00096B0E /* FirstViewController.m in Sources */,
 				F1F0EBF1222CBDAC00096B0E /* ThirdViewController.m in Sources */,
-				F1F0EBF7222CBE6600096B0E /* QKTabBarController.m in Sources */,
 				F134BFA4222777520041BA51 /* AppDelegate.m in Sources */,
 				F1F0EBEE222CBD9B00096B0E /* SecondViewController.m in Sources */,
 				F134BFE2222788000041BA51 /* UIButton+Common.m in Sources */,
@@ -524,7 +511,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F134BFBC222777550041BA51 /* QKTemplateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +654,7 @@
 			baseConfigurationReference = 1AB9B476E842B749014F6E87 /* Pods-QKTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TC79DDCB8;
@@ -691,6 +678,7 @@
 			baseConfigurationReference = AEF65E8106B48EDF3E0FB27F /* Pods-QKTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TC79DDCB8;
