@@ -322,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "梁强坤";
+				ORGANIZATIONNAME = liangqiangkun;
 				TargetAttributes = {
 					F134BF9E222777520041BA51 = {
 						CreatedOnToolsVersion = 10.1;

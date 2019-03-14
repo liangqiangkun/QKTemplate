@@ -2,8 +2,8 @@
 //  ThirdViewController.h
 //  QKTemplate
 //
-//  Created by 梁强坤 on 2019/3/4.
-//  Copyright © 2019 梁强坤. All rights reserved.
+//  Created by liangqiangkun on 2019/3/4.
+//  Copyright © 2019 liangqiangkun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
